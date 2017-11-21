@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",  // 大部分浏览器最新的两个版本
+            "ie >= 8"           // 并且，至少支持 IE8
+          ]
+        }
+      }
+    ]
+  ]
+}
